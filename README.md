@@ -200,21 +200,6 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for full request/response shapes and da
 - React Query + shared API client on the frontend
 - Refresh tokens (httpOnly cookies)
 
-## Before pushing to GitHub
-
-1. **Remove nested git repo** — If `frontend/.git` exists, delete it so the monorepo uses one root repository:
-   ```bash
-   Remove-Item -Recurse -Force frontend\.git   # Windows PowerShell
-   ```
-2. **Never commit secrets** — Keep `backend/.env` and `frontend/.env.local` out of git (already in `.gitignore`).
-3. **Rotate JWT secret** — If `.env.example` was ever committed with a real `JWT_SECRET`, generate a new secret for production.
-4. **Initialize git at repo root** (if not done yet):
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: DevPulse full-stack dashboard"
-   ```
-
 ## License
 
 ISC (backend default). See individual `package.json` files for package licenses.
