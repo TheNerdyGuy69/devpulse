@@ -904,4 +904,3 @@ export const paginate = (query = {}) => {
 
 ---
 
-*Generated for DevPulse — update this document whenever models, routes, or folder structure change.*

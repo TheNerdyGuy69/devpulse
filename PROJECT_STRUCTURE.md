@@ -222,4 +222,4 @@ See [ARCHITECTURE.md § REST API Routes](./ARCHITECTURE.md#4-rest-api-routes) fo
 
 ---
 
-*Update this file when folders or filenames change. Keep [ARCHITECTURE.md](./ARCHITECTURE.md) in sync for behavioral and API details.*
+
